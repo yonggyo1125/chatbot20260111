@@ -12,6 +12,9 @@
 
 ### 실행 예시 및 결과 캡처
 
+<img width="657" height="946" alt="screen" src="https://github.com/user-attachments/assets/6dbc9eac-6a9a-4898-8b7f-2afd5731300a" />
+
+
 ### 실행 방법
 - 의존성 설치
 ```bash
