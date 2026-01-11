@@ -1,1 +1,28 @@
-테스트
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>호텔 챗봇</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', path='/css/style.css') }}">
+        <script src="{{ url_for('static', path='/js/chat.js')}}"></script>
+    </head>
+    <body>
+        <div class="chat-wrapper">
+            <header>
+                <h1>호텔 이용 약관 Q&amp;A 챗봇</h1>
+            </header>
+            
+            <main id="chat-window" class="chat-window">
+                <div class="message bot-message">
+                    안녕하세요! 호텔 이용 약관에 대해 궁금한 점을 물어보세요.
+                </div>
+            </main>
+
+            <form id="chat-form" class="input-area">
+                <input type="text" id="user-input" placeholder="메시지를 입력하세요..." required>
+                <button type="submit" id="send-btn">전송</button>
+            </form>
+        </div>
+    </body>
+</html>
